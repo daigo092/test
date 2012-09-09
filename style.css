@@ -1,0 +1,1494 @@
+/* ここから全体のcss */
+
+body {
+	font-family: 'Meiryo', 'メイリオ', 'MS Pゴシック', 'MS PGothic', Arial, Sans-Serif; 
+}
+a {
+	color:#482913;
+	text-decoration: none;
+}
+.copyright {
+	text-align:center;
+	margin-top:10px;
+}
+
+#copyright2 {
+	text-align: center;
+	margin-top:20px;
+}
+#container {
+	width:876px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:30px;
+	color:#65212E;
+	font-weight:bold;
+	margin-bottom:30px;
+	font-family: "ヒラギノ角ゴ Pro W3", "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+#header {
+	margin-top:30px;
+}
+#header h1 {
+	float:left;
+	width:97px;
+}
+.copii {
+	margin-top:-30px;
+	margin-bottom:40px;
+}
+#nav img {
+	margin-left:20px;
+}
+#content {
+	clear:both;
+	margin-top:28px;
+	width:874px;
+
+}
+.pan {
+	margin-top:50px;
+	padding-left:10px;
+	font-weight:normal;
+	color:#482913;
+	vertical-align: middle;
+	margin-bottom:10px;
+}
+.pan a {
+	text-decoration: none;
+}
+.footer {
+	background-color:#65212E;
+	color:#fff;
+	height:120px;
+	font-weight:normal;
+	margin-top:30px;
+}
+.footer ul {
+	margin:0 auto;
+	width:630px;
+	padding-top:60px;
+}
+.footer ul li {
+	display:inline;
+	border-left:1px solid #fff;
+	padding:0 5px 0 6px;
+}
+.footer_last {
+	border-right:1px solid #fff;
+}
+.footer a {
+	color:#fff;
+	text-decoration:none;
+}
+.pink {
+	color:#E52D8A;
+}
+.blue {
+	color:#008CC2;
+}
+.big {
+	font-size:15px;
+}
+
+/* ここまで全体のcss */
+
+/* ここからトップページのcss */
+.ori-first {
+	cursor: pointer;
+	height:auto;
+	
+}
+.ori-first a:hover {
+	opacity: 0.6;
+}
+#calender tr {
+	cursor: pointer;
+}
+#calender tr:hover {
+	background-color:#eee;
+	color: #CD0080;
+}
+#content-top {
+	padding-top:70px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	background-image:url(image/waku5.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	width:874px;
+}
+#content-middle {
+	background-image:url(image/waku7.jpg);
+	background-repeat:repeat-y;
+	background-position:left top;
+	width:874px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:20px;
+}
+
+#caption {
+	text-align:center;
+	margin-bottom:20px;
+	margin-top:-60px;
+}
+#cal_orientation {
+	width:749px;
+	margin:0 auto;
+	background-image:url(image/ori_top.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	padding-top:44px;
+	margin-bottom:20px;
+	border:solid 3px #65212E;
+	height:auto;
+}
+#cal_orientation p {
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-top:10px;
+	width:650px;
+	clear:both;
+}
+#cal_orientation dl {
+	width:650px;
+	margin:0 auto;
+
+}
+#cal_orientation dl img {
+	vertical-align:text-top;
+	margin-right:5px;
+}
+#cal_orientation dt {
+	float:left;
+	width:350px;
+
+}
+#cal_orientation dd {
+float:right;
+width:300px;
+}
+#cal_orientation .last_dd {
+	margin-bottom:5px;
+	padding-bottom:5px
+}
+hr {
+	clear:both;
+	width:100%;
+	border-color:#65212E;
+}
+
+#supple {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:748px;
+	margin-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+	text-align:left;
+
+}
+#supple img {
+	vertical-align:middle;
+	margin-right:12px;
+	margin-bottom:5px;
+}
+#supple p {
+	display:inline;
+	font-weight:bold;
+	margin-right:5px;
+	font-size:16px;
+}
+#supple .small {
+
+	font-size:14px;
+	font-weight:normal;
+}
+#application {
+	
+	margin-left:auto;
+	margin-right:auto;
+	width:748px;
+	letter-spacing:0;
+}
+#top_line {
+	margin-left:auto;
+	margin-right:auto;
+	width:748px;
+	background-image:url(image/line3.png);
+	background-repeat:no-repeat;
+	height:6px;
+	clear:both;
+	}
+#top_appli_left {
+	width:350px;
+	float:left;
+	font-size:13px;
+	letter-spacing:0em;
+}
+#top_appli_center {
+	width:59px;
+	float:left;
+}
+#top_appli_center img {
+	vertical-align: top;
+	margin-top:-2px;
+}
+#top_appli_right {
+	float:right;
+	width:325px;
+	margin-bottom:30px;
+}
+.top_brown {
+	color:#65212E;
+	font-size:12px;
+	font-weight:normal;
+}
+.free-call {
+	font-size:21px;
+	letter-spacing:0.2em;
+	font-weight:bold;
+}
+.top1 {
+		font-size:20px;
+}
+#kokokara img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#content-bottom {
+	background-image:url(image/waku8.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	width:873px;
+	height:124px;
+}
+
+
+#calender {
+	margin-left:auto;
+	margin-right:auto;
+	width:748px;
+	background-image:url(image/cal_top.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	padding-top:42px;	
+	margin-left:auto;
+	margin-right:auto;
+}
+#calender a {
+	text-decoration: none;
+	display:block;
+}
+#calender a:hover {
+	color: #999;
+}
+#calender table {
+	border:solid 3px #482913;
+	margin-top:-1px;
+	
+}
+#calender table td{
+	height:29px;
+	font-size:13px;
+	padding-left:10px;
+	padding-right:10px;
+	letter-spacing: 0px;
+}
+#appli-calender table {
+	border:solid 3px #482913;
+	margin-top:-1px;
+	
+}
+#appli-calender table td{
+	height:29px;
+	font-size:13px;
+	padding-left:10px;
+	padding-right:10px;
+	letter-spacing: 0px;
+}
+
+/* hiroki change9/3　以下テーブルの幅をいじっています。*/
+.left {
+	background-color:#FFF23F;
+		width:135px;
+}
+
+.left_2 {
+	width:175px;
+}
+.left_3 {
+	width:265px;
+}
+.left_4 {
+	width:205px;
+}
+table td img {
+	margin:0 3px;
+	position:relative;
+	top:2px;
+}
+#inedex_content {
+	margin-top:10px;
+}
+
+
+.center {
+	text-align:center;
+}
+
+/*　ここまでトップページのcss　*/
+
+/* ここから運営会社ページのcss*/
+#content17 {
+	background-image:url(image/waku12.png);
+	background-repeat:no-repeat;
+	width:874px;
+	height:1278px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#content17 h2 {
+	padding-top:60px;
+	background-image:url(image/line.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	padding-bottom:10px;
+	width:658px;
+	height:59px;
+	margin-left:auto;
+	margin-right:auto;	
+	margin-bottom:30px;
+}
+#content17 a {
+	text-decoration: none;
+}
+#content18 {
+	width:658px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	background-image:url(image/back5.png);
+	background-repeat:no-repeat;
+	padding-bottom:30px;
+}
+#content19 {
+	width:490px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#content18 a:hover {
+	color:#999;
+}
+#rogo {
+	width:253px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+	margin-bottom:50px;
+}
+
+#writting {
+	font-size:16px;
+	line-height:1.4em;
+	font-weight:normal;
+	letter-spacing:0.3em;
+}
+#writting p {
+	margin-bottom:40px;
+}
+#intro_notch {
+	background-color:#fff;
+	width:570px;
+	margin-left:-60px;
+	height:210px;
+	padding:25px 0px 10px 25px;
+	margin-top:50px;
+	
+}
+#intro_notch img {
+	float:left;
+	width:203px;
+	margin-right:20px;
+}
+#intro_notch #right_text {
+	float:left;
+	width:340px;
+	letter-spacing: 0;
+}
+#intro_notch #right_text p {
+	font-size:14px;
+	margin-bottom:0;
+	letter-spacing:0.2em;
+	line-height:2.2;
+	font-weight:normal;
+}
+#intro_notch #right_text p#name {
+	font-weight:bold;
+}
+/* ここまで運営会社ページのcss*/
+
+/* ここからherbestとはのページのcss*/
+#content3 {
+	background-image:url(image/herbest_waku.png);
+	background-repeat:no-repeat;
+	width:874px;
+	height:1303px;
+}
+#content3 h2 {
+	padding-top:50px;
+	background-image:url(image/line.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	padding-bottom:10px;
+	width:658px;
+	height:59px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#content4 {
+	width:658px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(image/back_herbest.png);
+	background-repeat:no-repeat;
+	height:1080px;
+	letter-spacing:0.3em;
+	margin-top:20px;
+}
+.book {
+	position:absolute;
+	top:20px;
+	left:-90px;
+}
+.lady1 {
+	position: absolute;
+	top:30px;
+	right:-70px
+}
+.futoji1 {
+	color:#E52D8A;
+	font-size:26px;
+	text-align:center;
+}
+.futoji2 {
+	color:#E52D8A;
+	font-size:26px;
+	text-align:center;
+}
+#herbest-top {
+	position:relative;
+	padding-top:30px;
+	width:400px;
+	margin:0 auto;
+	margin-bottom:30px;
+	line-height:2em;
+}
+#fukidashi {
+	background-image:url(image/back_cloud.png);
+	background-repeat:no-repeat;
+	width:572px;
+	height:449px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.herbest_quest {
+	width:520px;
+	line-height:1.3em;
+	letter-spacing:0.2em;
+	margin-bottom:20px;
+	padding-top:40px;
+	padding-left:40px;
+}
+#herbest-middle {
+	position:relative;
+}
+.rabbits {
+	position:absolute;
+	top:0;
+	left:20px;
+}
+.lady2 {
+	position:absolute;
+	top:90px;
+	right:20px;
+}
+.job_menu {
+	display:block;
+	margin:0 auto;
+}
+#content4 .sita {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.lady3 {
+	position:absolute;
+	bottom:-40px;
+	left:-20px;
+}
+.herbest_negai {
+	font-size:20px;
+	text-align:center;
+	line-height:1.3em;
+	letter-spacing:0.1em;
+}
+#herbest_born {
+	width:420px;
+	margin:0 auto;
+	line-height:1;
+	text-align:center;
+	margin-top:20px;
+	font-size:19px;
+	letter-spacing:0.2em;
+}
+.herbest-big {
+	font-size:46px;
+}
+#content4 img.tamago {
+	margin-bottom:40px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+#herbest_bottom {
+	width:570px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:20px;
+	line-height:1.2em;
+	margin-bottom:40px;
+}
+#herbest_bottom img {
+	float:left;
+	width:48px;
+	margin-right:20px;
+	margin-left:20px;
+}
+
+#content4 #sub_nav {
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+	width:620px;
+}
+#content4 #sub_nav img {
+	margin-right:10px;
+}
+
+/* ここまでherbestとはページのcss*/
+/* ここから体験プログラムのページのcss*/
+.pro_waku_top {
+	background-image:url(image/pro_waku_top.png);
+	background-repeat:no-repeat;
+	width:874px;
+	height:132px;
+	margin-top:10px;
+	margin-bottom:-40px;
+}
+.pro_waku_middle {
+	background-image:url(image/pro_waku_middle.png);
+	background-repeat:repeat-y;
+	width:874px;
+	height:auto;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+.pro_waku_bottom {
+	background-image:url(image/pro_waku_bottom.png);
+	background-repeat:no-repeat;
+	width:874px;
+	height:131px;
+	margin-top:-20px;
+}
+/*#pro_content {
+	background-image:url(image/pro_waku.png);
+	background-repeat:no-repeat;
+	width:874px;
+	height:1328px;
+	margin-top:10px;
+}*/
+.pro_waku_top h2 {
+	padding-top:30px;
+	background-image:url(image/line.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	padding-bottom:10px;
+	width:658px;
+	height:59px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+.pro_waku_middle .sub_nav {
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+	margin-top:40px;
+	margin-bottom:20px;
+}
+.sub_nav ul li {
+	display:inline;
+	margin-right:10px;
+}
+#pro_content .sub_nav img {
+	margin-right:10px;
+}
+.pro_content2 {
+	width:658px;
+	height:1016px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	background-image:url(image/back_pro1.png);
+	background-repeat:no-repeat;
+
+	padding-top:20px;
+	
+}
+.pro_h3 {
+	margin-bottom:20px;
+	display: block;
+	margin-left:35px
+}
+#pro_waku {
+	background-image:url(image/pro_waku_waku.png);
+	background-repeat:no-repeat;
+	width:608px;
+	height:494px;
+	position:relative;
+	margin-left:30px;
+}
+.pro_content3 {
+	position:relative;
+	width:610px;
+}
+.text1 {
+	position:absolute;
+	top:20px;
+	right:10px;
+}
+.photo1 {
+	position:absolute;
+	top:30px;
+	right:180px;
+}
+.text2 {
+	position:absolute;
+	top:20px;
+	right:300px;
+}
+.photo2 {
+	position:absolute;
+	top:30px;
+	right:420px;
+}
+.icon2 {
+	position:absolute;
+	top:90px;
+	right:540px;
+}
+.text2 {
+	position:absolute;
+	top:20px;
+	right:290px;
+}
+.photo3 {
+	position:absolute;
+	top:190px;
+	right:140px;
+}
+.kome {
+	position:absolute;
+	top:295px;
+	right:130px;
+}
+.text3 {
+	position:absolute;
+	top:170px;
+	right:30px;
+}
+.icon3 {
+	position:absolute;
+	top:260px;
+	right:250px;
+}
+.text4 {
+	position:absolute;
+	top:170px;
+	right:330px;
+}
+.photo4 {
+	position:absolute;
+	top:190px;
+	right:480px;
+}
+.icon4 {
+	position:absolute;
+	top:300px;
+	right:500px;
+}
+.text5 {
+	position:absolute;
+	top:320px;
+	right:40px;
+}
+.icon5 {
+	position:absolute;
+	top:420px;
+	right:20px;
+}
+.photo5 {
+	position:absolute;
+	top:340px;
+	right:170px;
+}
+.text6 {
+	position:absolute;
+	top:320px;
+	right:300px;
+}
+.icon7 {
+	position:absolute;
+	top:420px;
+	right:510px;
+}
+.timer_st {
+	float:left;
+	width:64px;
+	margin-left:-30px;
+}
+.timer_fi {
+	float:right;
+	width:59px;
+	margin-right:-60px;
+	margin-bottom:5px;
+}
+
+#pro_flow {
+	margin-top:5px;
+}
+.pro_flow_flow {
+	float:left;
+	width:75px;
+	font-size:13px;
+	text-align:center;
+	margin-top:20px;
+}
+.proro {
+	width:90px;
+}
+.yoko{
+	float:left;
+	width:13px;
+	margin-top:30px;	
+}
+.pro_flow_flow img {
+	margin-bottom:3px;
+}
+
+#content15 a:hover, #sub_nav a:hover {
+	opacity: 0.6;
+}
+#pro_clear {
+	clear:both;
+}
+#pro_clear img {
+	display:block;
+	margin:0 auto;
+}
+#pro_kouzagaiyou {
+	margin-left:35px;
+	width:587px;
+	font-size:14px;
+	position:relative;
+	
+}
+#pro_kouzagaiyou dt {
+	float:left;
+	width:200px;
+	color:#008CC2;
+}
+#pro_kouzagaiyou img {
+	padding-top:3px;
+	vertical-align:text-bottom;
+	margin-right:10px;
+}
+#pro_kouzagaiyou dl {
+	clear:both;
+	background-image:url(image/line4.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	height:34px;
+}
+#pro_kouzagaiyou dd {
+	padding-top:3px;
+}
+.pro_kouza_syou {
+	font-size:10px;
+	float:right;
+	width:250px;
+	letter-spacing:0;
+	font-weight:normal;
+	line-height:1.3em;
+}
+.pro_kouza_tyuu {
+	width:130px;
+	float:left;
+}
+#pro_kouzagaiyou dd.pro_motto {
+	padding-top:10px;
+}
+.gaiyou_banar {
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.pro_lady1 {
+	position:absolute;
+	right:-70px;
+	bottom:-40px;
+}
+#pro_kouzagaiyou dl.fasiri1 {
+	height:40px;
+	padding-bottom:4px;
+}
+.pro_fasiri {
+	width:370px;
+	float:left;
+}
+/*ここまで体験プログラムのページのcss*/
+
+/*ここから体験プログラムのタイプ別診断のページのcss*/
+.pro_type_h3 {
+	display: block;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+#type_block1 {
+	background-image:url(image/type_block1.png);
+	background-repeat:no-repeat;
+	width:344px;
+	height:310px;
+	float:left;
+	margin-left:-20px;
+}
+#type_block2 {
+	background-image:url(image/type_block2.png);
+	background-repeat:no-repeat;
+	width:337px;
+	height:321px;
+	float:left;
+	margin-right:-20px;
+}
+#type_block3 {
+	background-image:url(image/type_block3.png);
+	background-repeat:no-repeat;
+	width:345px;
+	float:left;
+	height:312px;
+	margin-left:-20px;
+}
+#type_block4 {
+	background-image:url(image/type_block4.png);
+	background-repeat:no-repeat;
+	width:330px;
+	height:334px;
+	float:left;
+	margin-right:-20px;
+	margin-bottom:30px;
+}
+.type_block_left {
+	width:250px;
+	margin-left:83px;
+	margin-top:30px;
+}
+.type_block_right {
+	width:250px;
+	margin-left:50px;
+	margin-top:30px;
+}
+.type_first {
+	text-align: center;
+	color:#E52D8A;
+	font-size:16px;
+	margin-bottom:6px;
+	font-weight: normal;
+}
+.type_second {
+	text-align: center;
+	color:#E52D8A;
+	font-size:22px;
+	margin-bottom:10px;
+}
+.type_third {
+	font-size:13px;
+	line-height:1.3em;
+	letter-spacing: 0.1em;
+	width:170px;
+	margin-left:35px;
+	margin-bottom:20px;
+}
+.type_block_left dl, .type_block_right dl {
+	font-size:13px;
+	clear:both;
+}
+.type_block_left dt, .type_block_right dt {
+	float:left;
+	background-color:#008CC2;
+	color:#fff;
+	padding:3px;
+	margin-left:-5px;
+	margin-right:3px;
+	font-weight:normal;
+	width:60px;
+	text-align:center;
+	height:15px;
+}
+.type_block_left dd, .type_block_right dd {
+	margin-bottom:5px;
+	padding:3px;
+	line-height:1.2em;
+}
+.type_block_right dl {
+	margin-left:-17px;
+}
+#type_bottom {
+	clear:both;
+	position:relative;
+}
+.type1 {
+	font-size:25px;
+	text-align: center;
+	margin-bottom:10px;
+}
+#type_bottom img {
+	position: absolute;
+	left:0px;
+	top:0x;
+}
+.type2 {
+	width:550px;
+	margin-left:90px;
+}
+
+#tab2 a:hover {
+	color:#008CC2;
+}
+.type_third2 {
+	width:200px;
+	margin-left:5px;
+}
+
+/*ここまで体験プログラムのタイプ別診断のページのcss*/
+/*ここから体験プログラムの体験レポートのページのcss*/
+#pro_repo {
+	background-image:url(image/back_repo.png);
+	background-repeat:no-repeat;
+	padding-top:60px;
+	margin:0 auto;
+	width:658px;
+	height:544px;
+}
+.telebi {
+	display: block;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+#repo-bottom {
+	width:525px;
+	margin:0 auto;
+}
+#repo-bottom img {
+	float:left;
+	margin-right:15px;
+}
+#repo-bottom p {
+	line-height:1.7em;
+	letter-spacing:0.2em;
+	padding-top:16px;
+}
+/*ここまで体験プログラムの体験レポートのページのcss*/
+
+/*ここから保育士ページ（体験プログラム個別ページ）のcss*/
+	.flow_toujitu {
+		background-image:url(image/back_flow.png);
+		background-repeat:no-repeat;
+		width:355px;
+		height:31px;
+		color:#fff;
+		line-height:2;
+		font-size:15px;
+	}
+#content20 {
+	background-image:url(image/waku13.png);
+	background-repeat:no-repeat;
+	width:875px;
+	height:1057px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#content20 h2 {
+	padding-top:60px;
+	background-image:url(image/line.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	padding-bottom:10px;
+	width:658px;
+	height:59px;
+	margin-left:auto;
+	margin-right:auto;	
+	margin-bottom:30px;
+}
+
+#content21 {
+	
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+.hoikusi-content {
+	background-image:url(image/back8.png);
+	background-repeat:repeat;
+	width:658px;
+	clear:both;
+	padding-top:20px;
+}
+#content22 {
+	width:610px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+}
+#content23 img {
+	float:left;
+	width:135px;
+	margin-right:20px;
+}
+#content23 p {
+	float:left;
+	width:438px;
+	line-height:1.6em;
+	font-weight:normal;
+	padding-top:0px;
+	margin-bottom:40px;
+}
+#content24 {
+	width:384px;
+	float:left;
+	text-align:center;
+	margin-left:15px;
+}
+#content26 {
+	clear:both;
+	border-top:solid 2px #482913;
+	border-bottom:solid 2px #482913;
+	padding:9px 20px;
+	font-size:15px;
+	background-color:#fff;
+}
+.content28 {
+	background-image:url(image/line2.png);
+	background-repeat:no-repeat;
+	background-position:bottom left;
+	padding-bottom:10px;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:left;
+
+}
+.content28 img {
+	margin-right:10px;
+	vertical-align: bottom;
+}
+.content28 p {
+	display:inline;
+	line-height:2.0em;
+}
+.hoiku8 {
+	position:absolute;
+	right:0px;
+	bottom:5px;
+}
+.hoiku10 {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:6px;
+	margin-bottom:6px;
+}
+#content29 {
+	margin-top:30px;
+	position:relative;
+}
+#content32 {
+	text-align:left;
+	position:relative;
+
+}
+#content32 p {
+	margin-bottom:7px;
+}
+.namae {
+	letter-spacing:1em;
+}
+#submit {
+    display:block;
+    width:81px;
+    height:25px;
+    padding:0;
+    border:0;
+    background-image:url(image/sousinn.png);
+    background-repeat:no-repeat;
+    background-position:left top;
+    text-indent:-9898px;
+    cursor:pointer;
+    margin-bottom:41px;
+
+}
+#content27 {
+	float:right;
+	width:180px;
+	margin-top:30px;
+	margin-right:30px;
+}
+#content30 {
+	background-color:rgba(249,226,6,0.7);
+	padding:17px 10px 10px 10px;
+	width:180px;
+	margin-bottom:30px;
+}
+#jissi {
+	margin-bottom:3px;
+}
+#content31 {
+	background-color:#fff;
+	font-size:13px;
+	font-weight:normal;
+	padding:7px;
+	line-height:1.5em;
+}
+#content31 dl {
+	margin-bottom:10px;
+}
+.part_program table  {
+	width:380px;
+		font-size:14px;
+		text-align:center;
+}
+.part_program th {
+	width:150px;
+	padding:5px;
+	background-color:#008CC2;
+	color:#fff;
+	text-align:center;
+}
+.part_program td {
+	padding:5px;
+	width:230px;
+	font-weight:normal;
+	text-align:left;
+	line-height:1.3em;
+	background-color:#fff;
+
+}
+.part_caption {
+	background-color:rgba(249,226,6,0.7);
+	padding:6px;
+	font-size:14px;
+	margin-top:15px;
+	font-weight:normal;
+	text-align:left;
+}
+/*ここまで保育士ページ（体験プログラム個別ページ）のcss*/
+
+/*ここからお問い合わせのページのcss*/
+#content40 {
+	background-image:url(image/waku14.png);
+	background-repeat:no-repeat;
+	width:875px;
+	height:809px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#content40 h2 {
+	padding-top:60px;
+	background-image:url(image/line.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	padding-bottom:10px;
+	width:658px;
+	height:59px;
+	margin-left:auto;
+	margin-right:auto;	
+	margin-bottom:30px;
+}
+
+#content41 {
+	width:658px;
+	height:590px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	background-image:url(image/back_contact.png);
+	background-repeat:repeat-y;
+	margin-bottom:30px;
+}
+#content42 {
+	width:550px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:40px;
+}
+#content43 p {
+	line-height:1.5em;
+	margin-bottom:30px;
+	font-weight:normal;
+	font-size:17px;
+	letter-spacing:0.1em;
+}
+#content44 {
+	font-size:16px;
+	letter-spacing:0.2em;
+	font-weight:normal;
+	margin-bottom:30px;
+}
+#content45 {
+	position:relative;
+	width:180px;
+	height:340px
+}
+#content45 .teigi {
+	margin-top:8px;
+}
+#content45 p 
+{
+	margin-bottom:5px;
+}
+#submit2 {
+    display:block;
+    width:81px;
+    height:25px;
+    padding:0;
+    border:0;
+    background-image:url(image/sousinn.png);
+    background-repeat:no-repeat;
+    background-position:left top;
+    text-indent:-9898px;
+    cursor:pointer;
+    margin-bottom:41px;
+}
+.pink_contact {
+	color:#CD0080
+}
+/*ここまでお問い合わせのページのcss*/
+
+/*ここから申し込みページのcss*/
+#application_content {
+	background-image:url(image/waku_appli.png);
+	background-repeat:no-repeat;
+	width:875px;
+	height:1166px;
+}
+#application_content h2 {
+	padding-top:50px;
+	background-image:url(image/line.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	padding-bottom:10px;
+	width:658px;
+	height:59px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+#appli_back {
+	background-image:url(image/back_appli.png);
+	background-repeat:repeat-y;
+	width:658px;
+	height:auto;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+#appli-calender tr {
+	cursor: pointer;
+}
+#appli-calender tr:hover {
+	background-color:#eee;
+	color: #CD0080;
+}
+
+#appli-cal_orientation {
+	width:604px;
+	margin:0 auto;
+	background-image:url(image/appli_cal_orien.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	padding-top:36px;
+	margin-bottom:40px;
+	border:solid 3px #65212E;
+	height:auto;
+}
+#appli-cal_orientation p {
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-top:10px;
+	width:550px;
+	clear:both;
+	font-size:80%;
+}
+#appli-cal_orientation dl {
+	width:550px;
+	margin:0 auto;
+	font-size:80%;
+}
+#appli-cal_orientation dl img {
+	vertical-align:text-top;
+	margin-right:5px;
+}
+#appli-cal_orientation dt {
+	float:left;
+	width:300px;
+
+}
+#appli-cal_orientation dd {
+float:right;
+width:250px;
+}
+#appli-cal_orientation .appli-last_dd {
+	margin-bottom:5px;
+	padding-bottom:5px
+}
+#appli-calender {
+	margin-left:auto;
+	margin-right:auto;
+	width:603px;
+	background-image:url(image/appli_cal_kouza.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	padding-top:34px;	
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:40px;
+}
+#appli-calender a {
+	text-decoration: none;
+	display:block;
+}
+#appli-calender a:hover {
+	color: #999;
+}
+
+#appli-calender table td{
+	height:29px;
+	font-size:12px;
+	padding-left:5px;
+	padding-right:5px;
+	letter-spacing: 0px;
+}
+.appli-left {
+	background-color:#FFF23F;
+		width:135px;
+}
+
+.appli-left_2 {
+	width:180px;
+}
+.appli-left_3 {
+	width:225px;
+}
+.appli-left_4 {
+	width:240px;
+}
+.appli_setumei {
+	text-align:center;
+	font-size:22px;
+	letter-spacing:0.1em;
+	padding-top:10px;
+	margin-bottom:30px;
+	clear:both;
+}
+.appli1 {
+	font-size:19px;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+#appli_call {
+	width:330px;
+	float:right;
+	margin-right:-15px;
+	padding-top:27px;
+	margin-bottom:10px;
+}
+.appli_free {
+	float:left;
+	width:47px;
+	margin-right:10px;
+	margin-left:20px;
+	text-align: center;
+}
+.appli_free1 {
+	float:left;
+	width:42px;
+	margin-right:10px;
+	margin-left:20px;
+	text-align: center;
+	vertical-align: inherit;
+}
+.appli2 {
+	font-size:19px;
+	padding-top:4px;
+}
+.appli3 {
+	background-color:#FFF23F;
+	padding:5px;
+	margin-bottom:20px;
+	margin-left:47px;
+	margin-right:47px;
+	clear:both;
+	text-align:center;
+}
+.appli4 {
+	position:relative;
+	top:20px;
+	left:25px;
+}
+#appli_mail {
+	width:350px;
+	padding-top:30px;
+	float:left;
+	margin-left:-10px;
+}
+.mail1 {
+	font-size:19px;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+.mail2 {
+	font-size:19px;
+}
+.appli_top {
+	padding-top:0px;
+}
+/*ここまで申し込みページのcss*/
+
+/**clear**/
+.clear1 {
+	clear:both;
+	
+	
+}
