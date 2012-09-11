@@ -76,46 +76,7 @@ get_header(); ?>
                     
                                                                             <?php  $aaaa++   ;?>
                                             <?php endwhile; ?>  <?php endif; ?>    <?php wp_reset_query(); ?>    			
-                            <div class="clear1"></div>
-                           
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            <div class="ori-first"><p><a href="<?php echo home_url(); ?>/?page_?p=302"><span class="pink">herbest『女性の資格とお仕事をまるっと学ぼう★お仕事体験講座オリエンテーション』</span></a></p>
-				<dl>
-					<dt><img src="<?php bloginfo('template_url'); ?>/image/top_nitiji.png" width="61" height="22" alt="日時"　/>9.17(月)<img src="<?php bloginfo('template_url'); ?>/image/cal_watch.png" width="16" height="17" alt="アイコン：時計" />
-						13:15～14:15(13:00より受付)
-					</dt>
-					
-					<dd class="appli-last_dd"><img src="<?php bloginfo('template_url'); ?>/image/top_basyo.png" width="60" height="21" alt="場所"　/>アクロス福岡　５０１会議室</dd>
-				</dl>
-				</div>
-				<hr>
-				<div class="ori-first"><p><a href="<?php echo home_url(); ?>/?page_?p=168"><span class="pink">herbest『女性の資格とお仕事をまるっと学ぼう★お仕事体験講座オリエンテーション』</span></a></p>
-				<dl>
-					<dt><img src="<?php bloginfo('template_url'); ?>/image/top_nitiji.png" width="61" height="22" alt="日時"　/>9.17(月)<img src="<?php bloginfo('template_url'); ?>/image/cal_watch.png" width="16" height="17" alt="アイコン：時計" />
-						18:15～19:15(18:00より受付)
-					</dt>
-					
-					<dd class="appli-last_dd"><img src="<?php bloginfo('template_url'); ?>/image/top_basyo.png" width="60" height="21" alt="場所"　/>アクロス福岡　５０１会議室</dd>
-				</dl>
-				</div>
-				<hr><div class="ori-first">
-				<p><a href="<?php echo home_url(); ?>/?page_?p=185"><span class="blue">herbest『女性の資格とお仕事をまるっと学ぼう★お仕事体験講座オリエンテーション』</span></a></p>
-				<dl>
-					<dt><img src="<?php bloginfo('template_url'); ?>/image/top_nitiji.png" width="61" height="22" alt="日時"　/>9.29(土)<img src="<?php bloginfo('template_url'); ?>/image/cal_watch.png" width="16" height="17" alt="アイコン：時計" />
-						13:15～14:15(13:00より受付)
-					</dt>
-					<dd class="ori_last_dd"><img src="<?php bloginfo('template_url'); ?>/image/top_basyo.png" width="60" height="21" alt="場所"　/>アクロス福岡　５０１会議室</dd>
-					<div class="clear1"></div>
-				</dl>
-				
-				</div>
+
                                 
                                 
                                 <div class="clear1"></div>
