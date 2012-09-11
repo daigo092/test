@@ -34,7 +34,59 @@ get_header(); ?>
 		
 			<p class="appli_setumei">各講座の詳細ページからもお申し込み頂けます。<br />現在受付中の講座は以下です！</p>
 			<div id="appli-cal_orientation">
-				<div class="ori-first"><p><a href="<?php echo home_url(); ?>/?page_?p=302"><span class="pink">herbest『女性の資格とお仕事をまるっと学ぼう★お仕事体験講座オリエンテーション』</span></a></p>
+
+                                  <?php
+                                $aaaa=1;//カウント変数
+                                $my_query = new WP_Query( array(
+                                'cat' => 5,
+                                 'posts_per_page' => '3',
+                                  'orderby' => 'meta_value',
+                                 'meta_key'=> 'カレンダー',    
+                                 'order' => 'ASC'
+                                 ));
+                                  if( $my_query->have_posts() ) : ?>
+                              <?php while( $my_query->have_posts() ) : $my_query->the_post(); ?>
+
+                                <?php     if($aaaa==1){
+                                        $pink_date=get_post_meta($post->ID,'カレンダー', true);
+                                }else{
+                                    echo '<hr>';   
+                                } ;?>
+                   
+                            <?php     if($pink_date==get_post_meta($post->ID,'カレンダー', true)){
+                                                      $color_class="pink";
+                                            }else{
+                                                $color_class="blue";
+
+                                            } ;?>
+                    
+			<div class="ori-first"><p><a href="<?php the_permalink(); ?>"><span  class="<?php echo $color_class;?>"><?php echo get_post_meta($post->ID,'講座', true); ?></span></a></p>
+ 
+                                <dl>
+					<dt><img src="<?php bloginfo('template_url'); ?>/image/top_nitiji.png" width="61" height="22" alt="日時"　/> <?php echo str_replace('/','.',substr(get_post_meta($post->ID,'カレンダー', true),5));?>(月)
+						<img src="<?php bloginfo('template_url'); ?>/image/cal_watch.png" width="16" height="17" alt="アイコン：時計" /><?php echo get_post_meta($post->ID,'時間', true); ?>(<?php echo get_post_meta($post->ID,'受付時間', true); ?>より受付)
+					</dt>
+					
+					<dd class="last_dd"><img src="<?php bloginfo('template_url'); ?>/image/top_basyo.png" width="60" height="21" alt="場所"　/><?php echo get_post_meta($post->ID,'場所', true); ?></dd>
+				</dl>
+				</div>
+                    
+                              
+
+                    
+                                                                            <?php  $aaaa++   ;?>
+                                            <?php endwhile; ?>  <?php endif; ?>    <?php wp_reset_query(); ?>    			
+                            <div class="clear1"></div>
+                           
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="ori-first"><p><a href="<?php echo home_url(); ?>/?page_?p=302"><span class="pink">herbest『女性の資格とお仕事をまるっと学ぼう★お仕事体験講座オリエンテーション』</span></a></p>
 				<dl>
 					<dt><img src="<?php bloginfo('template_url'); ?>/image/top_nitiji.png" width="61" height="22" alt="日時"　/>9.17(月)<img src="<?php bloginfo('template_url'); ?>/image/cal_watch.png" width="16" height="17" alt="アイコン：時計" />
 						13:15～14:15(13:00より受付)
@@ -62,8 +114,11 @@ get_header(); ?>
 					<dd class="ori_last_dd"><img src="<?php bloginfo('template_url'); ?>/image/top_basyo.png" width="60" height="21" alt="場所"　/>アクロス福岡　５０１会議室</dd>
 					<div class="clear1"></div>
 				</dl>
-				<div class="clear1"></div>
+				
 				</div>
+                                
+                                
+                                <div class="clear1"></div>
 			<!--cal_orientation--></div>
 		<div id="appli-calender">
 			<table border="1" bordercolor="#65212E">
