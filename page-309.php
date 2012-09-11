@@ -75,78 +75,28 @@ get_header(); ?>
 				</colgroup>
 				<colgroup class="appli-left_4">
 				</colgroup>
-				<tr data-href="<?php echo home_url(); ?>/?page_?p=60">
-					<td class="center">保育士</td>
-					<td><span class="big">9/18</span>(火)<br />
-						13:15～14:15(13:00より受付)</td>
-					<td>『保育士★お仕事体験講座』</td>
-					<td>アクロス福岡　５０１会議室</td>
+				              <?php
+                    $my_query = new WP_Query( array(
+                    'cat' => -5,
+                     'posts_per_page' => '-1',
+                      'orderby' => 'meta_value',
+                     'meta_key'=> 'カレンダー',    
+                     'order' => 'ASC'
+                     ));
+                      if( $my_query->have_posts() ) : ?>
+            <?php while( $my_query->have_posts() ) : $my_query->the_post(); ?>
+                                   
+                                <tr data-href="<?php the_permalink(); ?>">
+                                    
+					<td class="center"><?php echo get_post_meta($post->ID,'shokushu', true); ?></td>
+					<td><span class="big"><?php echo substr(get_post_meta($post->ID,'カレンダー', true),5); ?></span>(<?php echo get_post_meta($post->ID,'曜日', true); ?>)<br />
+						<?php echo get_post_meta($post->ID,'時間', true); ?>(<?php echo get_post_meta($post->ID,'受付時間', true); ?>より受付)</td>
+					<td>『<?php echo get_post_meta($post->ID,'講座', true); ?>』</td>
+					<td><?php echo get_post_meta($post->ID,'場所', true); ?></td>
 				</tr>
-				<tr data-href="<?php echo home_url(); ?>/?page_?p=58">
-					<td class="center">調剤事務</td>
-					<td><span class="big">9/20</span>(木)<br />
-						16:15～17:15(16:00より受付)</td>
-					<td>『調剤事務★お仕事体験講座』</td>
-					<td>エルガーラ　7F会議室Ⅱ</td>
-				</tr>
-				<tr data-href="<?php echo home_url(); ?>/?page_?p=62">
-					<td class="center">医療事務</td>
-					<td><span class="big">9/20</span>(木)<br />
-						18:15～19:15(18:00より受付)</td>
-					<td>『医療事務★お仕事体験講座』</td>
-					<td>エルガーラ　7F会議室Ⅱ</td>
-				</tr>
-				<tr data-href="<?php echo home_url(); ?>/?page_?p=52">
-					<td class="center">介護・福祉</td>
-					<td><span class="big">9/21</span>(金)<br />
-						13:15～14:15(13:00より受付)</td>
-					<td>『介護・福祉★お仕事体験講座』</td>
-					<td>アクロス福岡　５０１会議室</td>
-				</tr>
-				<tr data-href="<?php echo home_url(); ?>/?page_?p=47">
-					<td class="center">ブライダル</td>
-					<td><span class="big">9/22</span>(土)<br />
-						11:15～12:15(11:00より受付)</td>
-					<td>『ブライダル★お仕事体験講座』</td>
-					<td>アクロス福岡　６０４会議室</td>
-				</tr>
-				<tr data-href="<?php echo home_url(); ?>/?page_?p=54">
-					<td class="center">心理･<br />
-						カウンセリング</td>
-					<td><span class="big">9/24</span>(金)<br />
-						13:15～14:15(13:00より受付)</td>
-					<td>『心理・カウンセリング★<br />お仕事体験講座』</td>
-					<td>アクロス福岡　６０２会議室</td>
-				</tr>
-				<tr data-href="<?php echo home_url(); ?>/?page_?p=253">
-					<td class="center">医療事務</td>
-					<td><span class="big">9/26</span>(水)<br />
-						13:15～14:15(13:00より受付)</td>
-					<td>『医療事務★お仕事体験講座』</td>
-					<td>アクロス福岡　６０５会議室</td>
-				</tr>
-				<tr data-href="<?php echo home_url(); ?>/?page_?p=45">
-					<td class="center">事務職</td>
-					<td><span class="big">9/28</span>(金)<br />
-						18:15～19:15(18:00より受付)</td>
-					<td>『モテる事務職★お仕事体験講座』</td>
-					<td>アクロス福岡　５０１会議室</td>
-				</tr>
-				<tr data-href="<?php echo home_url(); ?>/?page_?p=216">
-					<td class="center">WEB<br />デザイナー</td>
-					<td><span class="big">9/30</span>(日)<br />
-						13:15～14:15(13:00より受付)</td>
-					<td>『WEBデザイナー★お仕事体験講座』</td>
-					<td>エルガーラ　7F会議室Ⅱ</td>
-				</tr>
-				<tr data-href="<?php echo home_url(); ?>/?page_?p=218">
-					<td class="center">WEB<br />プログラマー</td>
-					<td><span class="big">9/30</span>(日)<br />
-						15:15～16:15(15:00より受付)</td>
-					<td>『WEBプログラマー★お仕事体験講座』</td>
-					<td>エルガーラ　7F会議室Ⅱ</td>
-				</tr>
+ <?php endwhile; ?>     <?php endif; ?>    <?php wp_reset_query(); ?>       
 			</table>
+
 		</div>
 		
 		<!-- appli back --></div>
